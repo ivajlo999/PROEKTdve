@@ -96,17 +96,7 @@ namespace AvtoKushta
             Console.WriteLine($"Средната възраст на автомобилите е: {averageCarAge}");
 
             //З)
-            for (int i = 0; i < cars.Count; i++)
-            {
-                int OldestCar = cars[0].CarYear;
-                if (cars[i].CarYear < OldestCar)
-                {
-                    OldestCar = cars[i].CarYear;
-                    Console.WriteLine($"Най-старият автомобил е: {cars[i].CarBrand}, година: {OldestCar}");
-
-                }
-            }
-            //И)
+            //И) 
 
             //Й
             for (int i = 0; i < cars.Count - 1; i++)
